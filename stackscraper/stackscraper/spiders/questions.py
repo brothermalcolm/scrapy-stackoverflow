@@ -1,5 +1,6 @@
 import scrapy
-import re
+from stackscraper.items import StackscraperItem
+from scrapy.loader import ItemLoader
 
 
 class QuestionsSpider(scrapy.Spider):
@@ -11,12 +12,14 @@ class QuestionsSpider(scrapy.Spider):
         self.logger.info('demo: scrape stackoverflow questions...')        
         questions = response.xpath("//a[@class='s-link']")
         for question in questions:
-            yield {
-                'text': question.xpath('text()').get(),
-                'link': question.xpath('@href').get(),
-                'id': question.xpath('@href').get()[11:19]
-            }
+            loader = ItemLoader(item=StackscraperItem(), selector=question)
 
+            loader.add_xpath('text', 'text()')
+            loader.add_xpath('link', '@href')
+            loader.add_xpath('id', '@href')
+
+            yield loader.load_item()
+            
         next_page = response.xpath('//a[@rel="next"]/@href').get()
 
         if next_page is not None:

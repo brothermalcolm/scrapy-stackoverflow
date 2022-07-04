@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
-Mon Jul 04 14:47:28 UTC 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0181-c9ae-3ec9-00000f4e1808 
+Mon Jul 04 17:14:59 UTC 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0181-ca35-4b0a-00000ee62a00 
 on database directory /home/ubuntu/scrapy-stackoverflow/stackscraper/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27 
-Loaded from file:/home/ubuntu/airflow/venv/lib/python3.10/site-packages/pyspark/jars/derby-10.14.2.0.jar
+Loaded from file:/home/ubuntu/scrapy-stackoverflow/venv/lib/python3.10/site-packages/pyspark/jars/derby-10.14.2.0.jar
 java.vendor=Private Build
 java.runtime.version=11.0.15+10-Ubuntu-0ubuntu0.22.04.1
 user.dir=/home/ubuntu/scrapy-stackoverflow/stackscraper

@@ -12,7 +12,6 @@ warehouse_location = abspath('spark-warehouse')
 # glob all new files
 specfiles = glob("./specs/*.csv") 
 datafiles = glob("./data/*.json")
-# datafiles = glob("./*.json")
 print(specfiles, datafiles)
 
 # establish db connection
@@ -128,7 +127,7 @@ def insertView(tablename, ds):
 def insertOverwrite(tablename, ds):
     # insert overwrite df into existing table
     # insert_sql = "INSERT OVERWRITE %s PARTITION (ds = '%s') SELECT * FROM global_temp.%s" % (tablename, ds, tablename)
-    insert_sql = "INSERT OVERWRITE %s PARTITION (ds = '%s') SELECT text, link, 12345678 FROM global_temp.%s" % (tablename, ds, tablename)
+    insert_sql = "INSERT OVERWRITE %s PARTITION (ds = '%s') SELECT text, link, int(id) FROM global_temp.%s" % (tablename, ds, tablename)
     print(insert_sql)
     return insert_sql
 
@@ -171,9 +170,9 @@ if __name__ == '__main__':
         print('create table...')
         tablename = os.path.basename(datafile[:-16])
         spark.sql("show databases").show()
-        spark.sql(dropTable(tablename))
-        spark.sql("show tables").show()
-        spark.sql(createTable(tablename, spec))
+        # spark.sql(dropTable(tablename))
+        # spark.sql("show tables").show()
+        # spark.sql(createTable(tablename, spec))
         spark.sql("show tables").show()
 
         # load data file
