@@ -1,0 +1,4 @@
+"column name",width,datatype
+text,200,TEXT
+link,200,TEXT
+id,8,INTEGER
