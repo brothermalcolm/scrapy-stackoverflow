@@ -1,0 +1,1 @@
+dbt tests store_failures behaviour when limit is specified - why is limit ignored when inserting data into the failure table?/questions/72847529/dbt-tests-store-failures-behaviour-when-limit-is-specified-why-is-limit-ignore72847529

@@ -1,4 +1,4 @@
 "column name",width,datatype
-text,200,TEXT
-link,200,TEXT
-id,8,INTEGER
+text,1000,TEXT
+link,1000,TEXT
+id,10,INTEGER

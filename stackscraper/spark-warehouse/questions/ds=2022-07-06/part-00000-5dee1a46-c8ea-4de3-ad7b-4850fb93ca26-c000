@@ -1,0 +1,1 @@
+Is there a way to access video and audio frames from mediaDevices.getUserMedia({video: true,audio: true}) and transmit them to a remote server?/questions/72859644/is-there-a-way-to-access-video-and-audio-frames-from-mediadevices-getusermedia72859644

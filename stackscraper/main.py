@@ -5,6 +5,7 @@ from glob import glob
 from os.path import abspath
 from pyspark.sql import SparkSession
 from pyspark.sql import Row
+import re
 
 # warehouse_location points to the default location for managed databases and tables
 warehouse_location = abspath('spark-warehouse')
@@ -105,7 +106,9 @@ def loadData(datafile, spec):
     sdf.show()
     # print(sdf.tail(5))
     print(sdf)
+    spark.catalog.dropGlobalTempView(tablename)
     sdf.createGlobalTempView(tablename)
+    # sdf.createOrReplaceTempView(tablename)
     # spark.sql('select * from global_temp.%s' % tablename).show()
 
 def sparkData(datafile, spec):
@@ -128,6 +131,7 @@ def insertOverwrite(tablename, ds):
     # insert overwrite df into existing table
     # insert_sql = "INSERT OVERWRITE %s PARTITION (ds = '%s') SELECT * FROM global_temp.%s" % (tablename, ds, tablename)
     insert_sql = "INSERT OVERWRITE %s PARTITION (ds = '%s') SELECT text, link, int(id) FROM global_temp.%s" % (tablename, ds, tablename)
+    # insert_sql = "INSERT OVERWRITE %s PARTITION (ds = '%s') SELECT text, link, int(id) FROM %s" % (tablename, ds, tablename)
     print(insert_sql)
     return insert_sql
 
@@ -145,12 +149,14 @@ def checkTable(tablename, ds):
 if __name__ == '__main__':
     # parse data txt file (new only)
     print('parse data txt file...')
+    # rundates = ['2022-07-01','2022-07-02','2022-07-03','2022-07-04','2022-07-05','2022-07-06','2022-07-07']
     rundate = '2022-07-01'
     for datafile in datafiles:
         print('datafiles loop...')
 
         # check datafile partition (new only)
-        ds = datafile[-15:-5]
+        re1 = r'(\d{4}-\d{2}-\d{2})\.json$'
+        ds = re.findall(re1, datafile)[0]
         print(ds)
         if ds == rundate:
             print('new datafile found...')
@@ -158,7 +164,8 @@ if __name__ == '__main__':
             continue
 
         # find matching spec
-        specfile = './specs/' + os.path.basename(datafile[:-16]) + '.csv' 
+        re2 = r'\/(\w+)_\d{4}-\d{2}-\d{2}\.json$'
+        specfile = './specs/' + re.findall(re2, datafile)[0] + '.csv' 
         print(specfile)
         try:
             spec = parseSpec(specfile)
@@ -168,7 +175,7 @@ if __name__ == '__main__':
 
         # create table (new only)
         print('create table...')
-        tablename = os.path.basename(datafile[:-16])
+        tablename = re.findall(re2, datafile)[0]
         spark.sql("show databases").show()
         # spark.sql(dropTable(tablename))
         # spark.sql("show tables").show()

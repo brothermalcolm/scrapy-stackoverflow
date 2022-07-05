@@ -1,0 +1,1 @@
+target_path redirection on successful login is broken following upgrade from Symfony 4.4.41 to 4.4.42/questions/72854253/target-path-redirection-on-successful-login-is-broken-following-upgrade-from-sym72854253

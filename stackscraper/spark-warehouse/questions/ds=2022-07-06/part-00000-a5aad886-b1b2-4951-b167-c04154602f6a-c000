@@ -1,0 +1,1 @@
+Mutex .ctor inexplicably throws System.UnauthorizedAccessException when given a GUID-like name/questions/72861064/mutex-ctor-inexplicably-throws-system-unauthorizedaccessexception-when-given-a72861064

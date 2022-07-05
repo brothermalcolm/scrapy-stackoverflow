@@ -1,0 +1,1 @@
+NullReferenceException: at DevExpress.Persistent.BaseImpl.EFCore.AuditTrail.AuditDataItem.UpdateDefaultString/questions/72865704/nullreferenceexception-at-devexpress-persistent-baseimpl-efcore-audittrail-audi72865704

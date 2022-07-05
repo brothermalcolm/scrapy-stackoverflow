@@ -1,0 +1,1 @@
+Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform,) throw exception Unable to establish connection on channel. Flutter + Firebase/questions/72847648/firebase-initializeappoptions-defaultfirebaseoptions-currentplatform-throw-e72847648

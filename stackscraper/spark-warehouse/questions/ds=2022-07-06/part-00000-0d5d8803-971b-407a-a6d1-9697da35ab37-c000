@@ -1,0 +1,1 @@
+Why does timestamp > now() work but not timestamp between now() and now() - interval 1 hour [duplicate]/questions/72853696/why-does-timestamp-now-work-but-not-timestamp-between-now-and-now-inte72853696

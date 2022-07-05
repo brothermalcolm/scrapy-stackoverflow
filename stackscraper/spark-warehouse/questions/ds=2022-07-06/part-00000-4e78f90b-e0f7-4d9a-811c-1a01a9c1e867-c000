@@ -1,0 +1,1 @@
+Difference between dp = [[0]*8]*8 and dp2 = [([0]*8) for i in range(8)] [duplicate]/questions/72856383/difference-between-dp-088-and-dp2-08-for-i-in-range872856383

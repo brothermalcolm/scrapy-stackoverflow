@@ -1,0 +1,1 @@
+Gtk+-3.0 seems work well in mingw64, however, the gcc build the code fail due to some undefined reference to issue/questions/72854227/gtk-3-0-seems-work-well-in-mingw64-however-the-gcc-build-the-code-fail-due-to72854227

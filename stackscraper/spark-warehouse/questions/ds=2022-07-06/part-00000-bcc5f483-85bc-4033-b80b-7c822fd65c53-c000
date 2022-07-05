@@ -1,0 +1,1 @@
+ValueError: One of the dimensions in the output is <= 0 due to downsampling in conv2d. Consider increasing the input size/questions/72845161/valueerror-one-of-the-dimensions-in-the-output-is-0-due-to-downsampling-in-c72845161

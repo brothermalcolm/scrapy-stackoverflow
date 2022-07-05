@@ -1,0 +1,1 @@
+Why "public boolean onTouchEvent(MotionEvent event)" is not getting called when reetlayout is "androidx.constraintlayout.motion.widget.MotionLayout"?/questions/72859628/why-public-boolean-ontoucheventmotionevent-event-is-not-getting-called-when72859628

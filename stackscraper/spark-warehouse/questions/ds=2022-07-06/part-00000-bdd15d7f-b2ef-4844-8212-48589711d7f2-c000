@@ -1,0 +1,1 @@
+{% csrf_token %} is empty string but {{ csrf_token }} returns a value - Django/questions/72867960/csrf-token-is-empty-string-but-csrf-token-returns-a-value-django72867960

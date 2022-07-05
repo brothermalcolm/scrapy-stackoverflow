@@ -1,0 +1,1 @@
+numpy.einsum substantially speeds up computation - but numpy.einsum_path shows no speedup, what am I missing?/questions/72858444/numpy-einsum-substantially-speeds-up-computation-but-numpy-einsum-path-shows-n72858444

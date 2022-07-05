@@ -1,0 +1,1 @@
+django.db.utils.IntegrityError: NOT NULL constraint failed: Eid_Post_name.massenger_name/questions/72846142/django-db-utils-integrityerror-not-null-constraint-failed-eid-post-name-massen72846142

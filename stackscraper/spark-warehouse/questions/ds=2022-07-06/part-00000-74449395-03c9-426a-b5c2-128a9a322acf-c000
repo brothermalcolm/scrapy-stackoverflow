@@ -1,0 +1,1 @@
+Using absolute path to import a json from the same module throws eslint error (import/no-extraneous-dependencies) in ReactJS/questions/72859663/using-absolute-path-to-import-a-json-from-the-same-module-throws-eslint-error-i72859663

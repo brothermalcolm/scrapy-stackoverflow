@@ -1,0 +1,1 @@
+java.lang.UnsupportedOperationException: Cannot have circular references in bean class but got the circular reference of class java.time.ZoneOffset/questions/72859243/java-lang-unsupportedoperationexception-cannot-have-circular-references-in-bean72859243

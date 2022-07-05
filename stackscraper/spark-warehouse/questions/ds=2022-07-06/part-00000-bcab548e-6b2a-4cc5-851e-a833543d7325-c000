@@ -1,0 +1,1 @@
+Should Union[int, float] or float be used to type annotate Python functions that accept integers and floats? [duplicate]/questions/72858663/should-unionint-float-or-float-be-used-to-type-annotate-python-functions-that72858663

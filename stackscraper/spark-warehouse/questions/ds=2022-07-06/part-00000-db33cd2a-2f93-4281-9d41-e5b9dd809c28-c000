@@ -1,0 +1,1 @@
+Unknown column type "timestamp" requested. Any Doctrine type that you use has to be registered with DoctrineDBALTypesType::addType(). Laravel 6/questions/72844335/unknown-column-type-timestamp-requested-any-doctrine-type-that-you-use-has-to72844335

@@ -1,0 +1,1 @@
+When running the android command "./gradlew assembleStaging" the apk is being generated with the environment variable ".env" instead of ".env.staging"/questions/72858285/when-running-the-android-command-gradlew-assemblestaging-the-apk-is-being-ge72858285

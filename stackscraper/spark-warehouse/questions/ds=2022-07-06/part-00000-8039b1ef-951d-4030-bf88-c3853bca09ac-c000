@@ -1,0 +1,1 @@
+Why does removing a sprite from a sprite group, within a for loop within the main game loop also remove all the sprites after that sprite? [duplicate]/questions/72844570/why-does-removing-a-sprite-from-a-sprite-group-within-a-for-loop-within-the-mai72844570

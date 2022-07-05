@@ -1,0 +1,1 @@
+Why is unsafe read sbyte -> byte inconsistent in Release mode: *(byte*)(&sbyteValue)?/questions/72844556/why-is-unsafe-read-sbyte-byte-inconsistent-in-release-mode-bytesbyteva72844556

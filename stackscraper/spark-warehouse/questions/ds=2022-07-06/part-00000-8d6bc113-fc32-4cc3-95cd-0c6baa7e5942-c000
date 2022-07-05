@@ -1,0 +1,1 @@
+tf.reshape(tensor, [-1]) VS tf.reshape(tensor, -1)/questions/72856571/tf-reshapetensor-1-vs-tf-reshapetensor-172856571

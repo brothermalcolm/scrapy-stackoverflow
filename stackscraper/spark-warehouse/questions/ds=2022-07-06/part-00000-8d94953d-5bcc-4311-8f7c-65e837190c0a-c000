@@ -1,0 +1,1 @@
+Retry on producing message to eventhub does not work with kafka-client 2.0/questions/72854691/retry-on-producing-message-to-eventhub-does-not-work-with-kafka-client-2-072854691

@@ -1,0 +1,1 @@
+ValueError: Input 1 of layer "generator" is incompatible with the layer: expected shape=(None, 128), found shape=(32, 20)/questions/72857156/valueerror-input-1-of-layer-generator-is-incompatible-with-the-layer-expecte72857156

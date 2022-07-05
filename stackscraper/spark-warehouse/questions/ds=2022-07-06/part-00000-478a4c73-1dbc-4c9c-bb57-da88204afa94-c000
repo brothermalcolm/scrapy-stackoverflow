@@ -1,0 +1,1 @@
+I used GENERATE_SOURCEMAP=false in my .env file and packge.json also but it was not hiding my code after deployment i used vercel.com to deploy it/questions/72857773/i-used-generate-sourcemap-false-in-my-env-file-and-packge-json-also-but-it-was72857773

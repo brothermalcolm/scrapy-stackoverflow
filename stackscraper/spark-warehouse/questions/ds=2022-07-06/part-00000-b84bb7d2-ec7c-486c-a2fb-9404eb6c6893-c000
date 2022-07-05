@@ -1,0 +1,1 @@
+only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices, when trying to drop columns/questions/72868151/only-integers-slices-ellipsis-numpy-newaxis-none-and-intege72868151

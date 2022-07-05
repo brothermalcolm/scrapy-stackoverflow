@@ -1,0 +1,1 @@
+Azure build pipeline, msbuild argument /p:OutDir="$(build.artifactstagingdirectory)" missing the "bin/release" folder for some projects/questions/72860326/azure-build-pipeline-msbuild-argument-poutdir-build-artifactstagingdirecto72860326

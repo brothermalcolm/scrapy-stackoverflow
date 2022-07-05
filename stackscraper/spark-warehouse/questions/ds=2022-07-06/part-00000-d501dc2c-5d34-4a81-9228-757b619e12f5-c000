@@ -1,0 +1,1 @@
+In MySQL 8, if I have some data in a column of type varchar, and later on set it to NULL, will space be reclaimed?/questions/72864424/in-mysql-8-if-i-have-some-data-in-a-column-of-type-varchar-and-later-on-set-it72864424

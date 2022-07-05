@@ -1,0 +1,1 @@
+I am trying to add group button in DataGrid, when I click it page reloads even after using e.preventDefault() function. Please check why?/questions/72844205/i-am-trying-to-add-group-button-in-datagrid-when-i-click-it-page-reloads-even-a72844205

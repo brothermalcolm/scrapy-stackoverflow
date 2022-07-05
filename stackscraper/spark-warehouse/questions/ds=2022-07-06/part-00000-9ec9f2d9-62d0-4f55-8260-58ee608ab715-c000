@@ -1,0 +1,1 @@
+Does `Box` obscure trait bounds? Why can i assign `dyn FnOnce()` to `dyn Fn()` in this case?/questions/72848868/does-box-obscure-trait-bounds-why-can-i-assign-dyn-fnonce-to-dyn-fn-i72848868

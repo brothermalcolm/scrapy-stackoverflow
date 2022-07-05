@@ -1,0 +1,1 @@
+IntegrityError at UNIQUE constraint failed: sales_salesitem.product_id django/questions/72858111/integrityerror-at-unique-constraint-failed-sales-salesitem-product-id-django72858111

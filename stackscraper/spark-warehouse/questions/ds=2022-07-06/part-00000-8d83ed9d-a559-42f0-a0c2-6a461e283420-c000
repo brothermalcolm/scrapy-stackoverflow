@@ -1,0 +1,1 @@
+kubectl get pod <pod> -n <namespace> -o yaml in kubernetes client-go/questions/72848993/kubectl-get-pod-pod-n-namespace-o-yaml-in-kubernetes-client-go72848993

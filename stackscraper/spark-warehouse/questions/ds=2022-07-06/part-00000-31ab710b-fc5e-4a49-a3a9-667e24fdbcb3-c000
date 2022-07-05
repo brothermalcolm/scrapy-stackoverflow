@@ -1,0 +1,1 @@
+Java code calling Lock.lock(), not Lock.interruptibly(), still gets interrupted/questions/72844502/java-code-calling-lock-lock-not-lock-interruptibly-still-gets-interrupted72844502

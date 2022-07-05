@@ -1,0 +1,1 @@
+If calling a python multiprocessing.Pool within a class method, do the workers rerun the class __init__? [duplicate]/questions/72854831/if-calling-a-python-multiprocessing-pool-within-a-class-method-do-the-workers-r72854831

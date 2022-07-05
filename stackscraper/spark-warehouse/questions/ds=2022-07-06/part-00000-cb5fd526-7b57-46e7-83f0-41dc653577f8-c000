@@ -1,0 +1,1 @@
+ValueError: ssd_mobilenet_v2_fpn_keras is not supported for tf version 1. See `model_builder.py`/questions/72863343/valueerror-ssd-mobilenet-v2-fpn-keras-is-not-supported-for-tf-version-1-see-m72863343

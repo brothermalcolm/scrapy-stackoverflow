@@ -1,0 +1,1 @@
+Issue when using df_dict2 = pd.read_fwf(io.StringIO(read_data), delim_whitespace=True)/questions/72854504/issue-when-using-df-dict2-pd-read-fwfio-stringioread-data-delim-whitespace72854504

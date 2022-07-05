@@ -1,0 +1,1 @@
+Why do clang and gcc produce this sub-optimal output (copying a struct) for passing a pointer to a by-value struct arg?/questions/72859532/why-do-clang-and-gcc-produce-this-sub-optimal-output-copying-a-struct-for-pass72859532

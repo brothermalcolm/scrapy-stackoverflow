@@ -1,0 +1,1 @@
+Caused by:org.hibernate.MapEx:Could not determine type for: java.util.Set,at table: student_master,forcolumns: [org.hibernate.mapping.Column(roll_no)]/questions/72848195/caused-byorg-hibernate-mapexcould-not-determine-type-for-java-util-set-at-tab72848195

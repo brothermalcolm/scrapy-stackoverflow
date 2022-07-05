@@ -1,0 +1,1 @@
+How order1.addItem(Noodles()) line from main considers that Noodle() instance is same as Item() instance. For me Noddle & Item instance are diff/questions/72848517/how-order1-additemnoodles-line-from-main-considers-that-noodle-instance-is72848517
