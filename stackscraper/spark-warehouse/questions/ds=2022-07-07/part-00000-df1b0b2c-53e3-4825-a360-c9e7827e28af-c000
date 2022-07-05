@@ -1,0 +1,1 @@
+Does icc -xCORE-AVX2 force the non-utilisation of AVX512 instructions on Xeon Gold if -O3 is on?/questions/72871031/does-icc-xcore-avx2-force-the-non-utilisation-of-avx512-instructions-on-xeon-go72871031

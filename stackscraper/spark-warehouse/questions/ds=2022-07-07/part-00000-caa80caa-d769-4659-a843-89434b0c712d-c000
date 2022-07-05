@@ -1,0 +1,1 @@
+In ggplot, why does one have to separately set axis.text.x and axis.text.y to element_blank() instead of just axis.text?/questions/72866510/in-ggplot-why-does-one-have-to-separately-set-axis-text-x-and-axis-text-y-to-el72866510

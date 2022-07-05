@@ -1,0 +1,1 @@
+ValueError: Input 0 of layer sequential_34 is incompatible with the layer: expected ndim=3, found ndim=2. Full shape received: (None, 2)/questions/72872342/valueerror-input-0-of-layer-sequential-34-is-incompatible-with-the-layer-expec72872342

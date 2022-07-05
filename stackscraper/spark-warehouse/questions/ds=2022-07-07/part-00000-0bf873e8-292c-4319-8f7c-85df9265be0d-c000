@@ -1,0 +1,1 @@
+If multiple dataframes are repartitioned based on the same column having same values, will they be colocated?/questions/72870295/if-multiple-dataframes-are-repartitioned-based-on-the-same-column-having-same-va72870295

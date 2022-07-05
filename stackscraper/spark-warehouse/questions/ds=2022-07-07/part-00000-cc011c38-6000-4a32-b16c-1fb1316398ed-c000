@@ -1,0 +1,1 @@
+SQLSTATE[HY000] [2002] Connection timed out (SQL: select * from `sessions` where `id` = Me2dEG11Zq4pJBhzCoWlhZwZuWPebKdGPLyhuleg limit 1)/questions/72870317/sqlstatehy000-2002-connection-timed-out-sql-select-from-sessions-where72870317

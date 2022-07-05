@@ -1,0 +1,1 @@
+I am able to connect to my Linux ec2 instance using putty via ec2-user@instance_ip_address but not via ec2-user@instance_hostname, any suggestion?/questions/72866694/i-am-able-to-connect-to-my-linux-ec2-instance-using-putty-via-ec2-userinstance72866694

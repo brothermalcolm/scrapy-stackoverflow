@@ -1,0 +1,1 @@
+ValueError: When creating a Point from sequence, it must not have more than 3 items. Python geopy.distance/questions/72872283/valueerror-when-creating-a-point-from-sequence-it-must-not-have-more-than-3-it72872283

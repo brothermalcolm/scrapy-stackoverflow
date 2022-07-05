@@ -1,0 +1,1 @@
+SQL: only return results, after a join, where columns with different words represent the same idea (col 1 'dog' col 2 'hound' = match)/questions/72873324/sql-only-return-results-after-a-join-where-columns-with-different-words-repre72873324

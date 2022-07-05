@@ -1,0 +1,1 @@
+How is return by value possible for a thread object from a function since its copy constructor and copy assignment operator are deleted?/questions/72869220/how-is-return-by-value-possible-for-a-thread-object-from-a-function-since-its-co72869220

@@ -1,0 +1,1 @@
+How is mandatory copy elision implemented so that the omitted copy/move constructor is not checked for accessibility? [duplicate]/questions/72871396/how-is-mandatory-copy-elision-implemented-so-that-the-omitted-copy-move-construc72871396

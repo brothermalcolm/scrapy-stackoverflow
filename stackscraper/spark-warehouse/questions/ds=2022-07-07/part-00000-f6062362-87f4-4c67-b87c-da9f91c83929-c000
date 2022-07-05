@@ -1,0 +1,1 @@
+cross-env NODE_ENV=development API_ENV=development PERMISSIONS=disabled node server/questions/72871479/cross-env-node-env-development-api-env-development-permissions-disabled-node-ser72871479

@@ -1,0 +1,1 @@
+Using Pytest + django, is there a way for fixtures with different scope, work transactionally while sharing DB?/questions/72866144/using-pytest-django-is-there-a-way-for-fixtures-with-different-scope-work-tr72866144

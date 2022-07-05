@@ -1,0 +1,1 @@
+I tried to dynamically add a [Symbol.iterator] to the object to implement a custom iterator, but the TS total reports an error/questions/72870321/i-tried-to-dynamically-add-a-symbol-iterator-to-the-object-to-implement-a-cust72870321

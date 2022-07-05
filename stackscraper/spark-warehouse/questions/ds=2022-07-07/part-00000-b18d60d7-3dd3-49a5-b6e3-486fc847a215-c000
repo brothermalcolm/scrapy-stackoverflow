@@ -1,0 +1,1 @@
+Why is a mutable borrow returned from function not drop at the end of the scope?/questions/72869452/why-is-a-mutable-borrow-returned-from-function-not-drop-at-the-end-of-the-scope72869452
