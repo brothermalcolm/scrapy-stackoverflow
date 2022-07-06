@@ -1,0 +1,1 @@
+'Router' cannot be used as a JSX component. It was working fine until I added the component Msal componant in index.tsx and PageLayout in app.tsx/questions/72873367/router-cannot-be-used-as-a-jsx-component-it-was-working-fine-until-i-added-th72873367
