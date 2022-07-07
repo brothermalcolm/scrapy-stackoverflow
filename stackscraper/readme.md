@@ -73,8 +73,8 @@ Local outputs (json and html pages) are stored in "data" folder.
 
 For example:
 
-scrapy crawl quotes saves a set of html pages to /local_output
-scrapy crawl quotes -o ./data/questions.json saves the output to a json file
+scrapy crawl questions saves a set of html pages to /local_output
+scrapy crawl questions -o ./data/questions.json saves the output to a json file
 
 
 
@@ -121,12 +121,12 @@ Add a pipleline file and enable the pipeline in `/stackscraper/settings.py` by u
 
 ```
 ITEM_PIPELINES = {
-    'tutorial.pipelines.SaveQuotesPipeline': 300,
+    'tutorial.pipelines.StackscraperPipeline': 300,
 }
 ```
 
 ### Version 4 
-Airflow scheduler
+Airflow scheduler (wip)
 
 ### Version 5 
-Deployment to AWS 
+Deployment to AWS (wip)
